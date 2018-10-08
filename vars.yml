@@ -1,0 +1,9 @@
+cache_valid_time: 300
+chroot_included_packages:
+  - localepurge
+included_packages:
+  - apt-transport-https
+  - ca-certificates
+  - libpython-stdlib
+  - python-minimal
+temporary_directory: /var/tmp
